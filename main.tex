@@ -549,7 +549,31 @@ To achieve a STRONG rating you must accomplish all of the above in addition to t
 
 \subsubsection{Part A: Exploration of tech tools}
 
-Your text goes here
+Python Websockets is a library (or package) which allow for performant and robust api communication for servers, based off the traditional HTTPS protocol of websockets which is widely used for its reliability and speed. 
+
+
+Asynchronous WebSocket Server and Client Support
+Asynchronous programming is a incredibly powerful tool which allows for a system to act in response to events, rather than following a linear pattern. The package supports programming with the package asyncio which facilitates, allowing for non blocking communication, his is crucial for its scalability. 
+
+
+Full-Duplex Communication
+It enables simultaneous two way communication, allowing for a client to pull updates while simultaneously pushing new data to a server. This for example is highly useful for a live data system, such as an online game, where a client requires server updates, and other clients require server updates from different clients. Websockets maintain an open connection, unlike HTTP, which is request based. 
+
+
+Protocol Compliance and Error Handling
+The package also has compliance with RFC 6455 WebSocket protocol, which allows for the managing of handshakes, control frames, pings/pongs, and connection closing. It also has robust distributed systems, and mechanisms which ensure a graceful failure.
+
+
+This tool is incredibly important to the role of Computer Scientist, because it allows integration and development of real time functioning systems, capable of sending a receiving online data. For the development of a system, latency and interactivity matter to a Computer Scientist, and Python WebSocket allows for things such as real time data feeds and low-latency communication. This would allow for a computer scientist to experiment with how systems and algorithms might interact with live user data. It also allows for a Computer Scientist to design and test custom communication protocols over TCP, such as defining message formats and encryption layers. A Computer scientist would also importantly allow for Async Paradigms, which would allow for the handling of multiple clients to access information from a central server, and it would also provide a lightweight mechanism to scale well. This is a tool which would allow a computer scientist to powerfully develop the backend systems for a web based application, using the python programming language, allowing for the integration of systems, and the use of Async Paradigms. 
+
+
+There are a few significant limitations or weaknesses of, 3 being:
+- Python Websockets is a single threaded and Event-Loop Dependant. Since the library is designed around asyncio (single event loop) and does not support multithread processing, there is significant reduction in it’s capabilities to easily scale. For a high traffic server, it should be considered that using a single thread could cause a bottleneck, as many different clients are waiting to asynconously call on the server through only one thread, additional infrastructure would be required to fix this. 
+
+- It lacks some significant high level features without extra work, such as broadcasting to multiple clients, session management, rooms, and automatic reconnection logic for clients. All these functions are able to be developed through the framework, but it still it requires significantly more development time to manually develop these useful high level functions. 
+
+- Security, while the package is capable of supporting secure websockets, it falls short in multiple other important areas, such as authentication layers (Jet, oAuth), Rate limiting, and message validation or encryption beyond TLS. To provide an adequate amount of security other external tools must be integrated and additional code must be added to ensure secure WebSocket channels. 
+
 
 \subsubsection{Part B: Technical Skills and Analysis}
 
