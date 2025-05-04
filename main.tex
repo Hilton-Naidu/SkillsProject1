@@ -654,11 +654,58 @@ Your text goes here
 
 \subsubsection{Part A: Exploration of tech tools}
 
-Your text goes here
+Wireshark is an open–source application used for analysing network traffic \cite{soepeno2023}. It enables the user to capture and inspect the packets from a network so they can troubleshoot and analyse the network in real time:
+
+\begin{itemize}
+
+	\item Wireshark provides tools to dissect packets for detailed network analysis, for diagnosing security threats and optimising network communications \cite{soepeno2023}.
+
+	\item Real time network analysis using Wireshark can assist analysts in assessing trends and methodologies of attacks and create proactive response strategies and allow for faster detection of future attacks \cite{soepeno2023}.
+
+	\item Wireshark provides extensive tools for capturing and logging network traffic with capture filters and display filters as well as logging traffic and specific intervals \cite{banerjee2010}. These features provide a lot of flexibility for users
+
+\end{itemize}
+
+Wireshark is widely used in the cybersecurity industry for the analysis of network security \cite{soepeno2023}. Specifically, it allows security analysts to perform detailed live analysis of network data at a packet level, allowing them to detect malicious activity, troubleshoot problems, and optimize network protocols \cite{banerjee2010}. Despite these upsides, there are some downsides to using wireshark:
+
+\begin{itemize}
+
+	\item While Wireshark can be used to detect suspicious activity on a network, it does not have the capability to automatically detect and create an alert when suspicious activity is detected \cite{mabsali2023}.
+
+	\item Real time packet capture can be resource intensive to perform, particularly on busy networks with high traffic \cite{alizan2024}.
+
+	\item Wireshark is limited to monitoring the traffic on networks that pass through the network interfaces of the machine that it is being used on, making remote monitoring more difficult \cite{alizan2024}.
+
+\end{itemize}
+
+In summary, Wireshark is a powerful network analysis tool that is a staple in the cybersecurity industry, and will be an important tool for me as I develop the skills to solve future cybersecurity challenges.
 
 \subsubsection{Part B: Technical Skills and Analysis}
 
-Your text goes here
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{wireshark1.png} \\
+	normal network data \\
+
+	\includegraphics[width=0.5\textwidth]{wireshark2.png} \\
+	normal network graph \\
+
+\end{center}
+
+As part of my investigation of Wireshark, I simulated the detection process of a malicious attack using Wireshark. To do this, I used hping3, a network tool that can be used to send custom TCP/IP packets, and I used this to simulate a DoS attack by sending a large amount of SYN packets to my test machine. I ran the command \texttt{sudo hping3 -S -p 80 –flood [ip]} to send a flood of SYN packets to my test machine. I filtered for the packets from the attack using \texttt{tcp.flags.syn == 1 \&\& tcp.flags.ack == 0} then I monitored the change in activity in Wireshark using an I/O graph.
+
+\begin{center}
+	
+	\includegraphics[width=0.5\textwidth]{wireshark3.png} \\
+	SYN flood network data \\ 
+
+	\includegraphics[width=0.5\textwidth]{wireshark4.png} \\
+	SYN flood graph \\
+
+\end{center}
+
+In learning Wireshark, I first familiarised myself with basic network concepts such as packet structure and network protocols before learning the intricacies of Wireshark and how to use it. Initially, I found the interface overwhelming and struggled to isolate the relevant packets within the large volume of captured data. To overcome this, I relied heavily on online resources, including video tutorials, official documentation, and user forums. Through this process, I learned how to effectively use Wireshark to filter and interpret network traffic and represent it visually in graphs. This hands-on experience reinforced how essential tools like Wireshark are for diagnosing complex problems and maintaining secure systems in professional cybersecurity settings.
+
+In a disaster response scenario, Wireshark could be used to monitor critical networks so that they can be proactively protected from any issues and malicious attacks that could happen. By identifying unusual patterns or unauthorized activity on the network, cybersecurity analysts could respond quickly to potential threats, ensuring that vital information reaches the right people without interruption. It could also be used during the development of a disaster response network as a tool to analyse and optimize network traffic so it can handle high traffic scenarios \cite{soepeno2023}. 
 
 %=======================================================================================
 

@@ -75,4 +75,20 @@ V.~Viswanathan, ``R: Recipes for analysis, visualization and machine learning:
   Get savvy with r language and actualize projects aimed at analysis,
   visualization and machine learning (1st ed.),'' 2016, packt Publishing.
 
+\bibitem{soepeno2023}
+R.~Soepeno, ``Wireshark: An effective tool for network analysis,'' 09 2023.
+
+\bibitem{banerjee2010}
+U.~Banerjee, A.~Vashishtha, and S.~Mukul, ``Evaluation of the capabilities of
+  wireshark as a tool for intrusion detection,'' 09 2010.
+
+\bibitem{mabsali2023}
+J.~M. Nawal A. L.~Mabsali, Hothefa~Jassim, ``Effectiveness of wireshark tool
+  for detecting attacks and vulnerabilities in network traffic,'' 2023.
+
+\bibitem{alizan2024}
+M.~F.~Z. Anis Nariesha~Alizan, ``A comparative study between wireshark and
+  paessler router traffic grapher (prtg) in network monitoring and analysis.''
+  2024, see \url{http://eprints.intimal.edu.my/2107/1/ij2024_51.pdf}.
+
 \end{thebibliography}
