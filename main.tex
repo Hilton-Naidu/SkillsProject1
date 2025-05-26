@@ -639,22 +639,22 @@ In the context of disaster response, this tool becomes indispensable. Whether it
 
 \subsubsection{Part A: Exploration of tech tools}
 
-\textbf{Pytest} is a Python full-featured testing framework, going beyond just running basic tests and instead supporting large, complex testing needs in software projects. Specific features include simple testing, compatability with existing tests, re-writing, and plugin-based architecture. Pytest was developed by a third-party to address Python's built-in module, unittest's, failures. It was widely adopted by software engineers because it is easy to use, rich in features, has more flexible fixture configuration, and compatibility with existing Python tools. Key functioanlaties include:
+\textbf{Pytest} is a Python full-featured testing framework, going beyond just running basic tests and instead supporting large, complex testing needs in software projects. Specific features include simple testing, compatibility with existing tests, rewriting, and plugin-based architecture \cite{schmitt2024}. Pytest was developed by a third party to address the failures of Python's built-in module and unittests. Software engineers widely adopted it because it is easy to use, rich in features, has more flexible fixture configuration, and is compatible with existing Python tools. Key functioanlaties include:
 
 \begin{enumerate}
-    \item \textbf{Simple Syntax and Auto-Discovery}: Pytest allows writing tests with minimal boilerplate, furthermore, its easy approach makes it accessible to beginners. Test functions are easily written using Python assert statements, and the framework automatically discovers files and functions based on naming conventions. This encourages rapid development and supports Test-Driven Development (TDD).
-    \item \textbf{Compatibility}: PyTest, seamlessly integrates with existing `unittest`-based tests, allowing users to migrate to Pytest without rewriting old code. This lowers the barrier for adoption in ongoing projects.
-    \item \textbf{Plugin-based architecture}: Pytest is highly extensible through its plugin supports (`pytest-django`, `pytest-cov`, `pytest-xdist`) and the customisation of its core functionalities. Furthermore, it also enables users to create custom plugins. This makes it highly scalable for larger projects.
+    \item \textbf{Simple Syntax}: Pytest allows writing tests with minimal boilerplate, furthermore, its easy approach makes it accessible to beginners \cite{schmitt2024}. Test functions are easily written using Python assert statements. 
+    \item \textbf{Compatibility}: PyTest seamlessly integrates with existing `unittest '- based tests, allowing users to migrate to Pytest without rewriting old code \cite{schmitt2024}. This lowers the barrier for adoption in ongoing projects.
+    \item \textbf{Auto-Discovery}: The framework automatically discovers files and functions based on naming conventions \cite{hawk2023}. This encourages rapid development and supports Test-Driven Development (TDD) \cite{hawk2023}.
 \end{enumerate}
 
-This tool is important to the role of a \textbf{Software Engineer} because testing is paramount in delivering reliable, robust, scalable, and bug-free systems. This is particularly prominent in high-stakes environments like disaster response. For this project, Pytest would be valuable in validating offline capabilities, simulating network failures, and ensuring subsystems like data handling operate correctly under high-stress cases. 
+This tool is important to the role of a \textbf{Software Engineer} because testing is paramount in delivering reliable, robust, scalable, and bug-free systems. This is particularly prominent in high-stakes environments like disaster response. For this project, Pytest would be valuable in validating offline capabilities, simulating network failures, and ensuring subsystems like data handling operate correctly under high-stress cases \cite{sharma2024}. 
 
 However, PyTest also presents weaknesses:
 
 \begin{enumerate}
-    \item \textbf{Steep Learning Curve for Advanced Features}: While simple tests are user-friendly, such as custom fixtures and plugins can be complex for beginners.
-    \item \textbf{Integration Complexity}: Configuring custom fixtures, plugins, or hooks can be trivial, which can be challenging for new users.
-    \item \textbf{Overhead for Small Projects}: For small projects, setting up and using `pytest` might introduce a bit of overhead, introducing unnecessary complexity. Instead, simpler tools would be sufficient.
+    \item \textbf{Steep Learning Curve for Advanced Features}: While simple tests are user-friendly, such as custom fixtures and plugins, they can be complex for beginners \cite{sharma2024}.
+    \item \textbf{Integration Complexity}: Configuring custom fixtures, plugins, or hooks can be trivial, it can be challenging for new users \cite{sharma2024}.
+    \item \textbf{Overhead for Small Projects}: For small projects, setting up and using `pytest` might introduce a bit of overhead, introducing unnecessary complexity. Instead, simpler tools would be sufficient \cite{sharma2024}.
 \end{enumerate}
 
 Overall, Pytest is a valuable tool that enables Software Engineers to ensure the robustness of systems through flexible, scalable testing strategies.
