@@ -70,10 +70,18 @@ I.~Idris, ``Numpy: Beginner’s guide: An action-packed guide using real-world
   high-performance numpy mathematical library (3rd ed.),'' 2015, packt
   Publishing, Limited.
 
-\bibitem{viswanathan2016}
-V.~Viswanathan, ``R: Recipes for analysis, visualization and machine learning:
-  Get savvy with r language and actualize projects aimed at analysis,
-  visualization and machine learning (1st ed.),'' 2016, packt Publishing.
+\bibitem{schmitt2024}
+J.~Schmitt, ``Pytest: Getting started with automated testing for python,''
+  2024, see \url{https://circleci.com/blog/pytest-python-testing/}.
+
+\bibitem{hawk2023}
+J.~Hawk, ``Test-driven development with pytest: A guide,'' 2023, see
+  \url{https://medium.com/@jph94880/test-driven-development-with-pytest-a-guide-25ac686412d}.
+
+\bibitem{sharma2024}
+V.~Sharma, ``Pytest vs unittest: Comparing python testing frameworks,'' 2024,
+  see
+  \url{https://www.clariontech.com/blog/pytest-vs-unittest-python-frameworks}.
 
 \bibitem{soepeno2023}
 R.~Soepeno, ``Wireshark: An effective tool for network analysis,'' 09 2023.

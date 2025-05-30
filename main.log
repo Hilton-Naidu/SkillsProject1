@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.4.14)  30 MAY 2025 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.4.14)  30 MAY 2025 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,17 +667,17 @@ g>]
 <skillsD1.png, id=199, 464.33475pt x 301.72725pt>
 File: skillsD1.png Graphic file (type png)
 <use skillsD1.png>
-Package pdftex.def Info: skillsD1.png  used on input line 418.
+Package pdftex.def Info: skillsD1.png  used on input line 420.
 (pdftex.def)             Requested size: 320.0935pt x 208.00786pt.
 <skillsD2.png, id=200, 1136.44576pt x 617.9085pt>
 File: skillsD2.png Graphic file (type png)
 <use skillsD2.png>
-Package pdftex.def Info: skillsD2.png  used on input line 421.
+Package pdftex.def Info: skillsD2.png  used on input line 423.
 (pdftex.def)             Requested size: 320.0935pt x 174.0409pt.
 <skillsD3.png, id=201, 380.622pt x 173.448pt>
 File: skillsD3.png Graphic file (type png)
 <use skillsD3.png>
-Package pdftex.def Info: skillsD3.png  used on input line 424.
+Package pdftex.def Info: skillsD3.png  used on input line 426.
 (pdftex.def)             Requested size: 320.0935pt x 145.87529pt.
 
 
@@ -686,19 +686,19 @@ Package pdftex.def Info: skillsD3.png  used on input line 424.
 ]
 
 [13 <./skillsD1.png> <./skillsD2.png> <./skillsD3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 
  []
 
 <github_activity.png, id=223, 919.435pt x 839.135pt>
 File: github_activity.png Graphic file (type png)
 <use github_activity.png>
-Package pdftex.def Info: github_activity.png  used on input line 450.
+Package pdftex.def Info: github_activity.png  used on input line 452.
 (pdftex.def)             Requested size: 384.1096pt x 350.56488pt.
 
 
 [14 <./github_activity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
  []
 
@@ -710,12 +710,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--493
 <Field filter.png, id=241, 1927.2pt x 1084.05pt>
 File: Field filter.png Graphic file (type png)
 <use Field filter.png>
-Package pdftex.def Info: Field filter.png  used on input line 556.
+Package pdftex.def Info: Field filter.png  used on input line 558.
 (pdftex.def)             Requested size: 384.1096pt x 216.0618pt.
 <LCF.png, id=242, 1445.4pt x 903.375pt>
 File: LCF.png Graphic file (type png)
 <use LCF.png>
-Package pdftex.def Info: LCF.png  used on input line 559.
+Package pdftex.def Info: LCF.png  used on input line 561.
 (pdftex.def)             Requested size: 384.1096pt x 240.06866pt.
 
 
@@ -725,7 +725,7 @@ Package pdftex.def Info: LCF.png  used on input line 559.
 <server.png, id=251, 1201.48875pt x 767.86874pt>
 File: server.png Graphic file (type png)
 <use server.png>
-Package pdftex.def Info: server.png  used on input line 595.
+Package pdftex.def Info: server.png  used on input line 597.
 (pdftex.def)             Requested size: 405.45047pt x 259.11522pt.
 
 
@@ -735,12 +735,12 @@ Package pdftex.def Info: server.png  used on input line 595.
 <client.png, id=264, 1203.49625pt x 765.86125pt>
 File: client.png Graphic file (type png)
 <use client.png>
-Package pdftex.def Info: client.png  used on input line 602.
+Package pdftex.def Info: client.png  used on input line 604.
 (pdftex.def)             Requested size: 405.45047pt x 258.0171pt.
 <terminal.png, id=265, 711.65875pt x 111.41624pt>
 File: terminal.png Graphic file (type png)
 <use terminal.png>
-Package pdftex.def Info: terminal.png  used on input line 609.
+Package pdftex.def Info: terminal.png  used on input line 611.
 (pdftex.def)             Requested size: 405.45047pt x 63.47562pt.
 
 
@@ -754,72 +754,43 @@ Package pdftex.def Info: terminal.png  used on input line 609.
 <Numpy.png, id=303, 1445.4pt x 903.375pt>
 File: Numpy.png Graphic file (type png)
 <use Numpy.png>
-Package pdftex.def Info: Numpy.png  used on input line 657.
+Package pdftex.def Info: Numpy.png  used on input line 659.
 (pdftex.def)             Requested size: 405.45047pt x 253.39816pt.
-
-
-LaTeX Warning: Citation `schmitt2024' on page 22 undefined on input line 678.
-
 
 
 [22
 
  <./Numpy.png>]
-
-LaTeX Warning: Citation `schmitt2024' on page 23 undefined on input line 681.
-
-
-LaTeX Warning: Citation `schmitt2024' on page 23 undefined on input line 682.
-
-
-LaTeX Warning: Citation `hawk2023' on page 23 undefined on input line 683.
-
-
-LaTeX Warning: Citation `hawk2023' on page 23 undefined on input line 683.
-
-
-LaTeX Warning: Citation `sharma2024' on page 23 undefined on input line 686.
-
-
-Overfull \hbox (1.67502pt too wide) in paragraph at lines 686--687
+Overfull \hbox (1.67502pt too wide) in paragraph at lines 688--689
 []\T1/cmr/m/n/10.95 This tool is im-por-tant to the role of a \T1/cmr/bx/n/10.9
 5 Soft-ware En-gi-neer \T1/cmr/m/n/10.95 be-cause test-ing is paramount
  []
 
 
-LaTeX Warning: Citation `sharma2024' on page 23 undefined on input line 691.
-
-
-LaTeX Warning: Citation `sharma2024' on page 23 undefined on input line 692.
-
-
-LaTeX Warning: Citation `sharma2024' on page 23 undefined on input line 693.
-
-
 
 [23]
-<wireshark1.png, id=334, 1444.64719pt x 605.26125pt>
+<wireshark1.png, id=346, 1444.64719pt x 605.26125pt>
 File: wireshark1.png Graphic file (type png)
 <use wireshark1.png>
-Package pdftex.def Info: wireshark1.png  used on input line 740.
+Package pdftex.def Info: wireshark1.png  used on input line 742.
 (pdftex.def)             Requested size: 213.39568pt x 89.39993pt.
-<wireshark2.png, id=335, 834.86906pt x 627.09282pt>
+<wireshark2.png, id=347, 834.86906pt x 627.09282pt>
 File: wireshark2.png Graphic file (type png)
 <use wireshark2.png>
-Package pdftex.def Info: wireshark2.png  used on input line 743.
+Package pdftex.def Info: wireshark2.png  used on input line 745.
 (pdftex.def)             Requested size: 213.39568pt x 160.28452pt.
 
 
 [24 <./wireshark1.png> <./wireshark2.png>]
-<wireshark3.png, id=347, 1155.1155pt x 479.99326pt>
+<wireshark3.png, id=359, 1155.1155pt x 479.99326pt>
 File: wireshark3.png Graphic file (type png)
 <use wireshark3.png>
-Package pdftex.def Info: wireshark3.png  used on input line 752.
+Package pdftex.def Info: wireshark3.png  used on input line 754.
 (pdftex.def)             Requested size: 213.39568pt x 88.67285pt.
-<wireshark4.png, id=348, 666.69075pt x 501.072pt>
+<wireshark4.png, id=360, 666.69075pt x 501.072pt>
 File: wireshark4.png Graphic file (type png)
 <use wireshark4.png>
-Package pdftex.def Info: wireshark4.png  used on input line 755.
+Package pdftex.def Info: wireshark4.png  used on input line 757.
 (pdftex.def)             Requested size: 213.39568pt x 160.37689pt.
 
 
@@ -842,18 +813,14 @@ Underfull \hbox (badness 1960) in paragraph at lines 42--44
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F112B23860B0519DDEE1BD26EFA86609;3959.
  ) 
 Here is how much of TeX's memory you used:
- 12015 strings out of 473530
- 197113 string characters out of 5706596
- 607870 words of memory out of 5000000
- 34973 multiletter control sequences out of 15000+600000
+ 12016 strings out of 473530
+ 197120 string characters out of 5706596
+ 607930 words of memory out of 5000000
+ 34972 multiletter control sequences out of 15000+600000
  570630 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,1232b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -874,9 +841,9 @@ mfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk> </Users/jake/Library/A
 pplication Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi1037/ecbx1
 200.pk></Users/jake/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (29 pages, 24838637 bytes).
+Output written on main.pdf (29 pages, 24841665 bytes).
 PDF statistics:
- 824 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
+ 839 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
