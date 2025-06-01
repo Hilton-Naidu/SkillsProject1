@@ -569,22 +569,28 @@ To achieve a STRONG rating you must accomplish all of the above in addition to t
 
 \subsubsection{Part A: Exploration of tech tools}
 
-\textbf{NumPy} (Numerical Python) Python Websockets is a library (or package) which allow for performant and robust api communication for servers, based off the traditional HTTPS protocol of websockets which is widely used for its reliability and speed, some of it’s key features include:
+\textbf{Python Websockets & API}  Python Websockets is a library (or package) which allow for performant and robust api communication for servers, based off the traditional HTTPS protocol of websockets which is widely used for its reliability and speed, some of it’s key features include:
+
+\textbf{NumPy} (Numerical Python) Python Websockets is a library (or package) which allow for performant and robust API communication for servers, based off the traditional HTTPS protocol of WebSockets which is widely used for its reliability and speed \cite{pypi_websockets}. Some of its key features include:
 
 \begin{enumerate}
-    \item \textbf{Asynchronous WebSocket Server and Client Support}: Asynchronous programming is a incredibly powerful tool which allows for a system to act in response to events, rather than following a linear pattern. The package supports programming with the package asyncio which facilitates, allowing for non blocking communication, his is crucial for its scalability.
-    \item \textbf{Full-Duplex Communication}: It enables simultaneous two way communication, allowing for a client to pull updates while simultaneously pushing new data to a server. This for example is highly useful for a live data system, such as an online game, where a client requires server updates, and other clients require server updates from different clients. Websockets maintain an open connection, unlike HTTP, which is request based.
-    \item \textbf{Protocol Compliance and Error Handling}: The package also has compliance with RFC 6455 WebSocket protocol, which allows for the managing of handshakes, control frames, pings/pongs, and connection closing. It also has robust distributed systems, and mechanisms which ensure a graceful failure.
+    \item \textbf{Asynchronous WebSocket Server and Client Support}: Asynchronous programming is an incredibly powerful tool which allows for a system to act in response to events, rather than following a linear pattern. The package supports programming with the package asyncio which facilitates, allowing for non-blocking communication. This is crucial for scalability \cite{obregon2023}.
+    
+    \item \textbf{Full-Duplex Communication}: It enables simultaneous two-way communication, allowing for a client to pull updates while simultaneously pushing new data to a server. This is highly useful for live data systems, such as online games, where a client requires server updates, and other clients require server updates from different clients. WebSockets maintain an open connection, unlike HTTP, which is request-based \cite{ably2023}.
+    
+    \item \textbf{Protocol Compliance and Error Handling}: The package also has compliance with RFC 6455 WebSocket protocol, which allows for the managing of handshakes, control frames, pings/pongs, and connection closing. It also has robust distributed systems and mechanisms which ensure graceful failure \cite{piehost2024}.
 \end{enumerate}
 
-This tool is important to the role of a Computer Scientist as it enables integration and development of real-time systems capable of sending and receiving online data. Python WebSocket supports real-time data feeds and low-latency communication, allowing experimentation with live user data. It also enables the design and testing of custom communication protocols over TCP. Async paradigms allow handling multiple clients from a central server and provide a lightweight mechanism to scale. This tool supports backend development for web applications using Python and async paradigms.
+This tool is important to the role of a Computer Scientist as it enables integration and development of real-time systems capable of sending and receiving online data. Python WebSocket supports real-time data feeds and low-latency communication, allowing experimentation with live user data \cite{chatgpt2025}. It also enables the design and testing of custom communication protocols over TCP. Async paradigms allow handling multiple clients from a central server and provide a lightweight mechanism to scale. This tool supports backend development for web applications using Python and async paradigms \cite{obregon2023}.
 
 However, there are a few significant limitations or weaknesses of:
 
 \begin{enumerate}
-    \item \textbf{Single thread}: Python Websockets is a single threaded and Event-Loop Dependant. Since the library is designed around asyncio (single event loop) and does not support multithread processing, there is significant reduction in it’s capabilities to easily scale.
-    \item \textbf{Lack of  features}: It lacks some significant high level features without extra work, such as broadcasting to multiple clients, session management, rooms, and automatic reconnection logic for clients. 
-    \item \textbf{Security and privacy}: Security, while the package is capable of supporting secure websockets, it falls short in multiple other important areas, such as authentication layers (Jet, oAuth), Rate limiting, and message validation or encryption beyond TLS. 
+    \item \textbf{Single thread}: Python WebSockets is single-threaded and event-loop dependant. Since the library is designed around asyncio (single event loop) and does not support multithread processing, there is significant reduction in its capability to easily scale \cite{pypi_websockets}.
+    
+    \item \textbf{Lack of features}: It lacks some significant high-level features without extra work, such as broadcasting to multiple clients, session management, rooms, and automatic reconnection logic for clients \cite{ably2023}.
+    
+    \item \textbf{Security and privacy}: While the package is capable of supporting secure WebSockets, it falls short in other important areas, such as authentication layers (JWT, OAuth), rate limiting, and message validation or encryption beyond TLS \cite{chatgpt2025}.
 \end{enumerate}
 
 
